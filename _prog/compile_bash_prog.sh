@@ -1,5 +1,10 @@
 _compile_bash_deps_prog() {
-	true
+	
+	_deps_channel
+	_deps_metaengine
+	
+	[[ "$1" != "lean" ]] && return 1
+	return 0
 }
 
 #Default is to include all, or run a specified configuration. For this reason, it will be more typical to override this entire function, rather than append any additional code.
@@ -107,7 +112,15 @@ _compile_bash_installation_prog() {
 
 _compile_bash_program_prog() {	
 	export includeScriptList
-	true
+	
+	includeScriptList+=( reflector/reflector.sh )
+	includeScriptList+=( reflector/me/reflector_chain.sh )
+	includeScriptList+=( reflector/me/reflector_object.sh )
+	
+	includeScriptList+=( interpreter/interpreter.sh )
+	includeScriptList+=( interpreter/interpreter_filter.sh )
+	includeScriptList+=( interpreter/me/interpreter_chain.sh )
+	includeScriptList+=( interpreter/me/interpreter_object.sh )
 }
 
 _compile_bash_config_prog() {	
