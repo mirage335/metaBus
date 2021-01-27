@@ -74,6 +74,36 @@ It is an hard dependency :( not easy to manage with installer.'
 https://github.com/zeromq/libzmq/issues/153
 
 
+### Redis
+
+May not offer an MSW compatible transport layer.
+
+https://redislabs.com/blog/redis-on-windows-10/
+
+
+### RabbitMQ
+
+https://www.rabbitmq.com/tutorials/tutorial-three-python.html
+
+
+### DBus
+
+"If you use this low-level API directly, you're signing up for some pain."
+https://dbus.freedesktop.org/doc/api/html/index.html
+https://hackaday.io/project/279-sonomkr-noise-monitoring/log/86364-zeromq-vs-dbus-for-pub-sub-pattern
+
+
+### FIFO
+
+As typically provided by OS, FIFO (named pipe) may not be directly receivable by multiple recipients.
+
+https://stackoverflow.com/questions/33613341/how-to-send-broadcast-messages-with-named-pipe-using-c
+
+
+### TCP
+
+A possible workaround may be to declare a 'standard' TCP port to be used for IPC by the 'primary' user of a computer, an approach typical of 'extendedInterface'.
+
 
 # Future Work
 
