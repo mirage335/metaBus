@@ -142,7 +142,13 @@ else	#FAIL, implies [[ "$ub_import" == "true" ]]
 fi
 
 #Override.
-# DANGER: Recursion hazard. Do not create overrides without checking that alternate exists.
+# DANGER: Recursion hazard. Do not create override alias/function without checking that alternate exists.
+
+
+# Workaround for very minor OS misconfiguration. Setting this variable at all may be undesirable however. Consider enabling and generating all locales with 'sudo dpkg-reconfigure locales' or similar .
+#[[ "$LC_ALL" == '' ]] && export LC_ALL="en_US.UTF-8"
+
+
 
 # WARNING: Only partially compatible.
 if ! type md5sum > /dev/null 2>&1 && type md5 > /dev/null 2>&1
@@ -1175,8 +1181,8 @@ _safeRMR() {
 	
 	# WARNING: Allows removal of temporary folders created by current ubiquitous bash session only.
 	[[ "$sessionid" != "" ]] && [[ "$1" == *"$sessionid"* ]] && safeToRM="true"
-	[[ "$tmpSelf" != "" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
-	#[[ "$tmpSelf" != "" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
+	[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
+	#[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
 	
 	[[ "$safeToRM" == "false" ]] && return 1
 	
@@ -1260,8 +1266,8 @@ _safePath() {
 	
 	# WARNING: Allows removal of temporary folders created by current ubiquitous bash session only.
 	[[ "$sessionid" != "" ]] && [[ "$1" == *"$sessionid"* ]] && safeToRM="true"
-	[[ "$tmpSelf" != "" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
-	#[[ "$tmpSelf" != "" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
+	[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
+	#[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
 	
 	[[ "$safeToRM" == "false" ]] && return 1
 	
@@ -2335,7 +2341,8 @@ _channel_host_fifo_sequence() {
 	#nohup "$scriptAbsoluteLocation" --embed _channel_fifo_sequence "$@" >/dev/null 2>&1 &
 	"$scriptAbsoluteLocation" --embed _channel_fifo_sequence "$@" >/dev/null 2>&1 &
 	#disown -h $!
-	disown -a -h
+	disown -a -h -r
+	disown -a -r
 }
 
 # example: dd if=$(./ubiquitous_bash.sh _channel_host_fifo _channel_fifo_example) of=/dev/null
@@ -2501,13 +2508,23 @@ _killDaemon() {
 	return 0
 }
 
-_cmdDaemon() {
+_cmdDaemon_sequence() {
 	export isDaemon=true
 	
 	"$@" &
 	
+	local currentPID="$!"
+	
 	#Any PID which may be part of a daemon may be appended to this file.
-	echo "$!" | _prependDaemonPID
+	echo "$currentPID" | _prependDaemonPID
+	
+	wait "$currentPID"
+}
+
+_cmdDaemon() {
+	"$scriptAbsoluteLocation" _cmdDaemon_sequence "$@" &
+	disown -a -h -r
+	disown -a -r
 }
 
 #Executes self in background (ie. as daemon).
@@ -6244,7 +6261,7 @@ _me_page_tick_advance() {
 
 
 
-
+# TODO: Probably need to reset the tick difference periodically.
 _buffer_me_processor_page_tick() {
 	local measureTickA
 	local measureTickB
@@ -6310,6 +6327,7 @@ _buffer_me_processor_page_tick_write() {
 	rm -f "$bufferTick_file".tmp > /dev/null 2>&1
 }
 
+# TODO: Probably need to reset the tick difference periodically.
 _buffer_me_processor_page_clock() {
 	local measureDateA
 	local measureDateB
@@ -6549,7 +6567,7 @@ _prepare() {
 	! mkdir -p "$bootTmp" && exit 1
 	
 	# WARNING: No production use. Not guaranteed to be machine readable.
-	[[ "$tmpSelf" != "" ]] && echo "$tmpSelf" 2> /dev/null > "$scriptAbsoluteFolder"/__d_$(echo "$sessionid" | head -c 16)
+	[[ "$tmpSelf" != "$scriptAbsoluteFolder" ]] && echo "$tmpSelf" 2> /dev/null > "$scriptAbsoluteFolder"/__d_$(echo "$sessionid" | head -c 16)
 	
 	#_prepare_abstract
 	
@@ -6668,8 +6686,14 @@ _stop() {
 	#Optionally always try to remove any systemd shutdown hook.
 	#_tryExec _unhook_systemd_shutdown
 	
-	[[ "$tmpSelf" != "" ]] && [[ "$tmpSelf" != "/" ]] && [[ -e "$tmpSelf" ]] && rmdir "$tmpSelf" > /dev/null 2>&1
+	[[ "$tmpSelf" != "$scriptAbsoluteFolder" ]] && [[ "$tmpSelf" != "/" ]] && [[ -e "$tmpSelf" ]] && rmdir "$tmpSelf" > /dev/null 2>&1
 	rm -f "$scriptAbsoluteFolder"/__d_$(echo "$sessionid" | head -c 16) > /dev/null 2>&1
+	
+	# https://stackoverflow.com/questions/25906020/are-pid-files-still-flawed-when-doing-it-right/25933330
+	# https://stackoverflow.com/questions/360201/how-do-i-kill-background-processes-jobs-when-my-shell-script-exits
+	local currentStopJobs
+	currentStopJobs=$(jobs -p -r 2> /dev/null)
+	[[ "$currentStopJobs" != "" ]] && kill "$currentStopJobs" > /dev/null 2>&1
 	
 	_stop_stty_echo
 	if [[ "$1" != "" ]]
@@ -7136,7 +7160,7 @@ _uid_test() {
 
 
 # Creating a function from within a function may be relied upon for some overrides.
-# Enumerating a function's text with 'typeset -f' may be relied upon by some 'here document' functions.
+# Enumerating a function's text with 'declare -f' may be relied upon by some 'here document' functions.
 _define_function_test() {
 	local current_uid_1
 	current_uid_1=$(_uid)
@@ -7147,13 +7171,13 @@ _define_function_test() {
 	# https://stackoverflow.com/questions/7145337/bash-how-do-i-create-function-from-variable
 	eval "__$current_uid_1() { __$current_uid_2() { echo $ubiquitiousBashID; }; }"
 	
-	if [[ $(typeset -f __$current_uid_1 | wc -c) -lt 50 ]]
+	if [[ $(declare -f __$current_uid_1 | wc -c) -lt 50 ]]
 	then
 		_messageFAIL
 		_stop 1
 	fi
 	
-	if [[ $(typeset -f __$current_uid_2 | wc -c) -gt 0 ]]
+	if [[ $(declare -f __$current_uid_2 | wc -c) -gt 0 ]]
 	then
 		_messageFAIL
 		_stop 1
@@ -7161,7 +7185,7 @@ _define_function_test() {
 	
 	__$current_uid_1
 	
-	if [[ $(typeset -f __$current_uid_2 | wc -c) -lt 15 ]]
+	if [[ $(declare -f __$current_uid_2 | wc -c) -lt 15 ]]
 	then
 		_messageFAIL
 		_stop 1
@@ -7475,7 +7499,7 @@ _test() {
 	
 	_tryExec "_test_channel"
 	
-	[[ -e /dev/urandom ]] || echo /dev/urandom missing _stop
+	! [[ -e /dev/urandom ]] && echo /dev/urandom missing && _stop 1
 	
 	_messagePASS
 	

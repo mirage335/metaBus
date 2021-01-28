@@ -142,7 +142,13 @@ else	#FAIL, implies [[ "$ub_import" == "true" ]]
 fi
 
 #Override.
-# DANGER: Recursion hazard. Do not create overrides without checking that alternate exists.
+# DANGER: Recursion hazard. Do not create override alias/function without checking that alternate exists.
+
+
+# Workaround for very minor OS misconfiguration. Setting this variable at all may be undesirable however. Consider enabling and generating all locales with 'sudo dpkg-reconfigure locales' or similar .
+#[[ "$LC_ALL" == '' ]] && export LC_ALL="en_US.UTF-8"
+
+
 
 # WARNING: Only partially compatible.
 if ! type md5sum > /dev/null 2>&1 && type md5 > /dev/null 2>&1
@@ -1175,8 +1181,8 @@ _safeRMR() {
 	
 	# WARNING: Allows removal of temporary folders created by current ubiquitous bash session only.
 	[[ "$sessionid" != "" ]] && [[ "$1" == *"$sessionid"* ]] && safeToRM="true"
-	[[ "$tmpSelf" != "" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
-	#[[ "$tmpSelf" != "" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
+	[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
+	#[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
 	
 	[[ "$safeToRM" == "false" ]] && return 1
 	
@@ -1260,8 +1266,8 @@ _safePath() {
 	
 	# WARNING: Allows removal of temporary folders created by current ubiquitous bash session only.
 	[[ "$sessionid" != "" ]] && [[ "$1" == *"$sessionid"* ]] && safeToRM="true"
-	[[ "$tmpSelf" != "" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
-	#[[ "$tmpSelf" != "" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
+	[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$sessionid" != "" ]] && [[ "$1" == *$(echo "$sessionid" | head -c 16)* ]] && safeToRM="true"
+	#[[ "$tmpSelf" != "$safeScriptAbsoluteFolder" ]] && [[ "$1" == "$tmpSelf"* ]] && safeToRM="true"
 	
 	[[ "$safeToRM" == "false" ]] && return 1
 	
@@ -2494,13 +2500,23 @@ _killDaemon() {
 	return 0
 }
 
-_cmdDaemon() {
+_cmdDaemon_sequence() {
 	export isDaemon=true
 	
 	"$@" &
 	
+	local currentPID="$!"
+	
 	#Any PID which may be part of a daemon may be appended to this file.
-	echo "$!" | _prependDaemonPID
+	echo "$currentPID" | _prependDaemonPID
+	
+	wait "$currentPID"
+}
+
+_cmdDaemon() {
+	"$scriptAbsoluteLocation" _cmdDaemon_sequence "$@" &
+	disown -a -h -r
+	disown -a -r
 }
 
 #Executes self in background (ie. as daemon).
