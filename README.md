@@ -107,8 +107,9 @@ A possible workaround may be to declare a 'standard' TCP port to be used for IPC
 
 # Future Work
 
-* Demonstrate ability to preserve less dependable SSDs (ie. typical SD Cards) by automatically detecting usable '/dev/shm' as "$metaDir" location.
+* Demonstrate ability to preserve less dependable SSDs (ie. typical SD Cards) by automatically detecting usable '/dev/shm' as "$metaDir" (derived from "$metaTmp") location (also applies to upstream Ubiquitous Bash).
 
+* Real-time examples using FIFO , many-to-many 'broadcast' over FIFO and/or TCP/UDP , etc .
 
 
 
