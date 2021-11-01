@@ -75,337 +75,7 @@ scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-to
 
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;"> </div>
-<!--
-fi
- '_heading1' 'Demonstrations'
-if false; then true; # -->
-<!-- # --><h1>Demonstrations</h1>
-<!--
-fi
- '_paragraph_begin'
-if false; then true; # -->
-<!-- # --><p>
-<!--
-fi
- '_i' 'cd' '"$scriptAbsoluteFolder"'
-if false; then true; # -->
-<!--
-fi
- '_e_' 'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null'
-if false; then true; # -->
-<!-- # --><pre style="-webkit-print-color-adjust: exact;background-color:#848484;margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
-<!-- # --><span style="color:#1818b2;background-color:#848484;">  'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null'</span>
-<!-- # --># [1;32;46m init: _start_metaengine_host [0m
-<!-- # --># [0;36m init: _set_me_null_in [0m
-<!-- # --># [0;36m set: metaObjName= _me_processor_interpreter_file_in [0m
-<!-- # --># [1;32;46m write: _me_processor_interpreter_file_in [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter_file_in [0m
-
-<!-- # --># [0;34m metaID= YvOxrdZFaKwCqwB19L [0m
-
-<!-- # --># [0;34m metaPath= YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /dev/null [0m
-<!-- # --># [0;34m in_me_b_path= /dev/null [0m
-<!-- # --># [0;34m out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao [0m
-<!-- # --># [0;34m out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo [0m
-
-<!-- # --># [1;32;46m fork: _me_processor_interpreter_file_in: /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L/me.sh [0m
-<!-- # --># [0;36m init: _set_me_rand_out [0m
-<!-- # --># [0;32m metaType=  [0m
-<!-- # --># [0;36m cycle: in_me_a_name= (out_me_a_name)01_file_in cycle: in_me_b_name= (out_me_b_name)01_file_in [0m
-<!-- # --># [0;34m rand: out_me_a_name= ld9hU7BiReqPz2e7YP rand: out_me_b_name= ld9hU7BiReqPz2e7YP [0m
-<!-- # --># [0;36m set: metaObjName= _me_processor_interpreter [0m
-<!-- # --># [1;32;46m write: _me_processor_interpreter [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter [0m
-
-<!-- # --># [0;34m metaID= BchWAI2qEk06kHlekY [0m
-
-<!-- # --># [0;34m metaPath= BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao [0m
-<!-- # --># [0;34m in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo [0m
-<!-- # --># [0;34m out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao [0m
-<!-- # --># [0;34m out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo [0m
-
-<!-- # --># [1;32;46m fork: _me_processor_interpreter: /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY/me.sh [0m
-<!-- # --># [0;36m init: _set_me_rand_out [0m
-<!-- # --># [0;32m metaType=  [0m
-<!-- # --># [0;36m cycle: in_me_a_name= (out_me_a_name)03_interpreter cycle: in_me_b_name= (out_me_b_name)03_interpreter [0m
-<!-- # --># [0;34m rand: out_me_a_name= WHFzd3eZaquAlzzEiJ rand: out_me_b_name= WHFzd3eZaquAlzzEiJ [0m
-<!-- # --># [0;36m init: _set_me_null_out [0m
-<!-- # --># [0;36m set: metaObjName= _me_processor_interpreter_file_out [0m
-<!-- # --># [1;32;46m write: _me_processor_interpreter_file_out [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter_file_out [0m
-
-<!-- # --># [0;34m metaID= AqHWCBvx53FwsQjGZE [0m
-
-<!-- # --># [0;34m metaPath= AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao [0m
-<!-- # --># [0;34m in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo [0m
-<!-- # --># [0;34m out_me_a_path= /dev/null [0m
-<!-- # --># [0;34m out_me_b_path= /dev/null [0m
-
-<!-- # --># [1;32;46m fork: _me_processor_interpreter_file_out: /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE/me.sh [0m
-<!-- # --># [0;32m metaType=  [0m
-<!-- # --># [1;32;46m launch: _me_processor_interpreter_file_in [0m
-<!-- # --># [0;36m init: _wait_metaengine [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [1;32;46m processor: _me_processor_interpreter_file_in [0m
-<!-- # --># [0;34m init: _start_metaengine [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter_file_in [0m
-
-<!-- # --># [0;34m metaID= YvOxrdZFaKwCqwB19L [0m
-
-<!-- # --># [0;34m metaPath= YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /dev/null [0m
-<!-- # --># [0;34m in_me_b_path= /dev/null [0m
-<!-- # --># [0;34m out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao [0m
-<!-- # --># [0;34m out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo [0m
-
-<!-- # --># [0;36m init: _report_metaengine [0m
-<!-- # --># [1;32;46m launch:  [0m
-<!-- # --># [0;36m init: _wait_metaengine [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/null [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/null [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [1;32;46m launch: _me_processor_interpreter_file_out [0m
-<!-- # --># [0;36m init: _wait_metaengine [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L/ao /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/YvOxrdZFaKwCqwB19L/bo /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [1;32;46m processor: _me_processor_interpreter [0m
-<!-- # --># [0;34m init: _start_metaengine [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter [0m
-
-<!-- # --># [0;34m metaID= BchWAI2qEk06kHlekY [0m
-
-<!-- # --># [0;34m metaPath= BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao [0m
-<!-- # --># [0;34m in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo [0m
-<!-- # --># [0;34m out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao [0m
-<!-- # --># [0;34m out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo [0m
-
-<!-- # --># [0;36m init: _report_metaengine [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/ao /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY/ai [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/01_file_in/bo /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY/bi [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY/ao /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/BchWAI2qEk06kHlekY/bo /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _interpreter_filter [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [0;32m ready: in_me_a_path, in_me_b_path [0m
-<!-- # --># [1;32;46m processor: _me_processor_interpreter_file_out [0m
-<!-- # --># [0;34m init: _start_metaengine [0m
-<!-- # --># [0;36m init: _set_me [0m
-<!-- # --># [0;32m metaDir= tmp [0m
-<!-- # --># [0;32m metaReg= tmp [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _set_me_io_name_in [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _set_me_io [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _set_me_io_name_out [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;34m ########## SET [0m
-<!-- # --># [0;34m metaBase= /home/commonadmin/project/_playground/metaBus [0m
-<!-- # --># [0;34m metaObjName= _me_processor_interpreter_file_out [0m
-
-<!-- # --># [0;34m metaID= AqHWCBvx53FwsQjGZE [0m
-
-<!-- # --># [0;34m metaPath= AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaDir= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE [0m
-<!-- # --># [0;34m metaReg= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg [0m
-<!-- # --># [0;34m metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/confidence [0m
-
-<!-- # --># [0;34m ########## PATH [0m
-<!-- # --># [0;34m in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao [0m
-<!-- # --># [0;34m in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo [0m
-<!-- # --># [0;34m out_me_a_path= /dev/null [0m
-<!-- # --># [0;34m out_me_b_path= /dev/null [0m
-
-<!-- # --># [0;36m init: _report_metaengine [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_in [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/ao /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE/ai [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter [0m
-<!-- # --># [0;34m _relink_relative /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/03_interpreter/bo /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/AqHWCBvx53FwsQjGZE/bi [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --># [0;36m init: _relink_metaengine [0m
-<!-- # --># [0;32m valid: name_out [0m
-<!-- # --># [0;36m init: _relink_metaengine_name [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/null [0m
-<!-- # --># [0;34m mkdir -p /home/commonadmin/project/_playground/metaBus/.m_mj0k3If9hJuk4j9rA4/_reg/name/null [0m
-<!-- # --># [0;32m return: complete [0m
-<!-- # --># [0;32m return: success [0m
-<!-- # --></pre>
-<!--
-fi
-_t '
-scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;"> 
-<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
-'
- '_paragraph_end'
-if false; then true; # -->
-<!-- # --></p>
-<!--
-fi
-_t '
-scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
-
-
-<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
-'
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;"> </div>
-<!--
-fi
+ '_' '_page'
  '_heading1' 'Usage'
 if false; then true; # -->
 <!-- # --><h1>Usage</h1>
@@ -417,7 +87,7 @@ if false; then true; # -->
 <!--
 fi
  '_o' '_messagePlain_probe' '# Interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; . Basic command line interface example.
-echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter
+echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter ; echo
 
 # Basic command interpreter - interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; .
 # Largely serves to demonstrate a well-arranged implementation of a processing chain.
@@ -429,7 +99,7 @@ echo &#39;PASS&#39; | ./ubiquitous_bash.sh _reflector_present'
 if false; then true; # -->
 <!-- # --><pre style="-webkit-print-color-adjust: exact;background-color:#848484;margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
 <!-- # --><span style="color:#1818b2;background-color:#848484;"> # Interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; . Basic command line interface example.
-<!-- # -->echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter
+<!-- # -->echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter ; echo
 
 <!-- # --># Basic command interpreter - interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; .
 <!-- # --># Largely serves to demonstrate a well-arranged implementation of a processing chain.
@@ -467,10 +137,12 @@ if false; then true; # -->
 <!-- # --><p>
 <!--
 fi
- '_o' '_messagePlain_probe' 'MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .'
+ '_o' '_messagePlain_probe' 'MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .
+Diagnostic output may usually be correctly ordered by limiting parallelism, adding a delay (ie. &#39;sleep 3&#39; after or overriding &#39;_processor_launch&#39.)'
 if false; then true; # -->
 <!-- # --><pre style="-webkit-print-color-adjust: exact;background-color:#848484;margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
-<!-- # --><span style="color:#1818b2;background-color:#848484;"> MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .</span>
+<!-- # --><span style="color:#1818b2;background-color:#848484;"> MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .
+<!-- # -->Diagnostic output may usually be correctly ordered by limiting parallelism, adding a delay (ie. &#39;sleep 3&#39; after or overriding &#39;_processor_launch&#39.)</span>
 <!-- # --></pre>
 <!--
 fi
@@ -482,6 +154,334 @@ fi
  '_paragraph_begin'
 if false; then true; # -->
 <!-- # --><p>
+<!--
+fi
+_t '
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
+
+
+<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
+'
+ '_' '_page'
+ '_heading1' 'Demonstrations'
+if false; then true; # -->
+<!-- # --><h1>Demonstrations</h1>
+<!--
+fi
+ '_heading2' 'Interpreter - Multi-Threaded Chain Talk Processor'
+if false; then true; # -->
+<!-- # --><h2>Interpreter - Multi-Threaded Chain Talk Processor</h2>
+<!--
+fi
+ '_paragraph_begin'
+if false; then true; # -->
+<!-- # --><p>
+<!--
+fi
+ '_i' 'cd' '"$scriptAbsoluteFolder"'
+if false; then true; # -->
+<!--
+fi
+ '_e_' 'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null' ';' 'echo'
+if false; then true; # -->
+<!-- # --><pre style="-webkit-print-color-adjust: exact;background-color:#848484;margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
+<!-- # --><span style="color:#1818b2;background-color:#848484;">  'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null' ';' 'echo'</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> init: _start_metaengine_host</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_null_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> set: metaObjName= _me_processor_interpreter_file_in</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> write: _me_processor_interpreter_file_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter_file_in</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= 926KbyZty6YTWWtjgX</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= 926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo</span>
+
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> fork: _me_processor_interpreter_file_in: /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX/me.sh</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaType= </span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> launch: _me_processor_interpreter_file_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _wait_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> processor: _me_processor_interpreter_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> init: _start_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter_file_in</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= 926KbyZty6YTWWtjgX</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= 926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo</span>
+
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _report_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/null</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX/ao /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/926KbyZty6YTWWtjgX/bo /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_rand_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> cycle: in_me_a_name= (out_me_a_name)01_file_in cycle: in_me_b_name= (out_me_b_name)01_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> rand: out_me_a_name= gBbzB9TjyGkj2w73Vz rand: out_me_b_name= gBbzB9TjyGkj2w73Vz</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> set: metaObjName= _me_processor_interpreter</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> write: _me_processor_interpreter</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= TKKxkWXwTJyyKKBWxY</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo</span>
+
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> fork: _me_processor_interpreter: /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY/me.sh</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaType= </span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> launch: </span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _wait_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> processor: _me_processor_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> init: _start_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= TKKxkWXwTJyyKKBWxY</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo</span>
+
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _report_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/ao /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY/ai</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/01_file_in/bo /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY/bi</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY/ao /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/TKKxkWXwTJyyKKBWxY/bo /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _interpreter_filter</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_rand_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> cycle: in_me_a_name= (out_me_a_name)03_interpreter cycle: in_me_b_name= (out_me_b_name)03_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> rand: out_me_a_name= kz7tbztWXXk6W73JtY rand: out_me_b_name= kz7tbztWXXk6W73JtY</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_null_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> set: metaObjName= _me_processor_interpreter_file_out</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> write: _me_processor_interpreter_file_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter_file_out</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= kzjTWBgYygKY9JGYJW</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /dev/null</span>
+
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> fork: _me_processor_interpreter_file_out: /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW/me.sh</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaType= </span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> launch: _me_processor_interpreter_file_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _wait_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> ready: in_me_a_path, in_me_b_path</span>
+<!-- # --># <span style="color:#54ff54;background-color:#18b2b2;"> processor: _me_processor_interpreter_file_out</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> init: _start_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaDir= tmp</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> metaReg= tmp</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_in</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _set_me_io_name_out</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## SET</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaBase= /home/commonadmin/project/_playground/metaBus</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaObjName= _me_processor_interpreter_file_out</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaID= kzjTWBgYygKY9JGYJW</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaPath= kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_tmp= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir_base= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaDir= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaReg= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> metaConfidence= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/confidence</span>
+
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> ########## PATH</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_a_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> in_me_b_path= /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_a_path= /dev/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> out_me_b_path= /dev/null</span>
+
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _report_metaengine</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_in</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/ao /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW/ai</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> _relink_relative /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/03_interpreter/bo /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/kzjTWBgYygKY9JGYJW/bi</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> valid: name_out</span>
+<!-- # --># <span style="color:#18b2b2;background-color:#848484;"> init: _relink_metaengine_name</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/null</span>
+<!-- # --># <span style="color:#1818b2;background-color:#848484;"> mkdir -p /home/commonadmin/project/_playground/metaBus/.m_73xjXxW6jY226g677k/_reg/name/null</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: complete</span>
+<!-- # --># <span style="color:#17ae17;background-color:#848484;"> return: success</span>
+<!-- # --># PASS
+<!-- # --></pre>
+<!--
+fi
+_t '
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;"> 
+<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
+'
+ '_paragraph_end'
+if false; then true; # -->
+<!-- # --></p>
 <!--
 fi
 _t '

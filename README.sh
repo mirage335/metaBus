@@ -65,22 +65,11 @@ _t '
 
 
 '
-_page
-_heading1 'Demonstrations'
-_paragraph_begin
-_i 'cd' '"$scriptAbsoluteFolder"'
-_e_ 'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null'
-_t ' '
-_paragraph_end
-_t '
-
-
-'
-_page
+_ _page
 _heading1 'Usage'
 _paragraph_begin
 _o _messagePlain_probe '# Interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; . Basic command line interface example.
-echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter
+echo &#39;PASS&#39; | ./ubiquitous_bash.sh _interpreter ; echo
 
 # Basic command interpreter - interprets &#39;talk&#39; , responds with corresponding &#39;talk&#39; .
 # Largely serves to demonstrate a well-arranged implementation of a processing chain.
@@ -97,9 +86,22 @@ _t '
 '
 _heading1 'Inspection'
 _paragraph_begin
-_o _messagePlain_probe 'MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .'
+_o _messagePlain_probe 'MetaEngine "$metaDir" directories may be examined by adding a delay (ie. &#39;sleep 90&#39; ) before or overriding &#39;_stop_metaengine_wait&#39; .
+Diagnostic output may usually be correctly ordered by limiting parallelism, adding a delay (ie. &#39;sleep 3&#39; after or overriding &#39;_processor_launch&#39.)'
 _paragraph_end
 _paragraph_begin
+_t '
+
+
+'
+_ _page
+_heading1 'Demonstrations'
+_heading2 'Interpreter - Multi-Threaded Chain Talk Processor'
+_paragraph_begin
+_i 'cd' '"$scriptAbsoluteFolder"'
+_e_ 'echo' 'PASS' '|' './ubiquitous_bash.sh' '_interpreter' '2>/dev/null' ';' 'echo'
+_t ' '
+_paragraph_end
 _t '
 
 
